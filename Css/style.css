@@ -7,30 +7,48 @@ html,
 body{
   margin: 0;
   padding: 0;
+  width: 1366px;
   
   font-family:'Roboto', 'Arial', sans-serif;
   color: #fafafa;
+  
 }
+
+.container{
+  
+}
+
 .portrait {
   width: 33%;
-  min-height: 100vh;
+  height: 662px;
 
   float: left;
+  overflow: hidden;
   
   background-color: #EB5757;
   
 }
 
+
+
 .content {
   width: 67%;
-  min-height: 100vh;
+  height: 662px;
   float: right;
+  overflow: hidden;
   
+  background-image: url(../img/back/4.png);
+  
+  
+}
+
+.wrapper {
+  height: 100%;
   background: rgba(18, 18, 18, 0.85);
 }
 
 .quote {
-  margin-top: 227px;
+  padding-top: 227px;
   margin-left: 150px;
   margin-right: 150px;
 }
@@ -49,6 +67,7 @@ body{
 .butt_pos {
   margin-top: 68px;
   margin-left: 190px;
+  padding-bottom: 39px;
 }
 
 .butt {

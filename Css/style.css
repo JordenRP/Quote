@@ -10,36 +10,45 @@ body{
   width: 1366px;
   
   font-family:'Roboto', 'Arial', sans-serif;
-  color: #fafafa;
-  
-}
-
-.container{
-  
+  color: #fafafa; 
 }
 
 .portrait {
   width: 33%;
   height: 662px;
-
+  
+  text-align: left;
   float: left;
   overflow: hidden;
   
-  background-color: #EB5757;
-  
+  background-color: #EB5757; 
 }
-
-
 
 .content {
   width: 67%;
   height: 662px;
   float: right;
-  overflow: hidden;
-  
-  background-image: url(../img/back/4.png);
-  
-  
+  overflow: hidden; 
+}
+
+.port_1 {
+  background-image: url(http://i89.fastpic.ru/big/2017/0918/71/589f53d085ab00d25bdd8b5ec2309671.png);
+}
+
+.port_2 {
+  background-image: url(http://i91.fastpic.ru/big/2017/0918/8b/7b3d077e76059f7c7eb783c2ac8c0f8b.png);
+}
+
+.port_3 {
+  background-image: url(http://i89.fastpic.ru/big/2017/0918/78/3edfd7b23c71abbd4116c403c0e96378.png);
+}
+
+.port_4 {
+  background-image: url(http://i91.fastpic.ru/big/2017/0918/da/245f83d82c218b2ce82e4747e10c8cda.png);
+}
+
+.port_5 {
+  background-image: url(http://i91.fastpic.ru/big/2017/0918/45/50267e41da8188fa52efc49bbed59e45.png);
 }
 
 .wrapper {
@@ -48,12 +57,14 @@ body{
 }
 
 .quote {
-  padding-top: 227px;
+  height: 478px;
   margin-left: 150px;
   margin-right: 150px;
 }
 
 .quote-text{
+  padding-top: 226px;
+  height: 174px;
   font-size: 48px;
   margin-top: auto;
   margin-left: auto;
@@ -81,13 +92,19 @@ body{
   color: #fafafa;
   font-family:'Roboto', 'Arial', sans-serif;
   font-weight: 800;
+  
+  cursor: pointer;
+}
+
+.butt:hover {
+  box-shadow: 0 0 10px rgba(255,255,255,0.4);
 }
 
 .new_q {
   background-color: #EB5757;
 }
 
-.twit {
+.tweet {
   background-color: #2D9CDB;
   margin-left: 55px;
 }
